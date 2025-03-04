@@ -5,7 +5,7 @@ const jsConfetti = new JSConfetti();
 
 
 const date = new Date();
-if (date.getDay() >=5) {
+if (date.getDay() === 5 || date.getDay() === 6) {
 	svar="JA!"
 	jsConfetti.addConfetti({
 	emojis: ['🍾','🍻','🥂','🍸','🍺','🍷','🍹', "JA"],
