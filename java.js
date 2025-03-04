@@ -19,7 +19,7 @@ if (date.getDay() === 5 || date.getDay() === 6) {
 } else {
 	svar="Nej"
 	jsConfetti.addConfetti({
-	emojis: ['NEJ', ''],
+	emojis: ['NEJ', '!'],
 	confettiRadius: 100,
 	//confettiNumber: 50,
 	emojiSize: 120,
