@@ -3,7 +3,6 @@
     display: flex;  /* Placerer billederne i en række */
     justify-content: center;  /* Centrerer billederne */
     gap: 20px;  /* Afstand mellem billeder */
-    flex-wrap: wrap; /* Sikrer, at billederne rykker ned på mindre skærme */ 
 }
 
 ul{ /*Får det til at gælde for alle ul's (listerne)*/
