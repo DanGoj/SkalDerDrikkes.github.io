@@ -7,7 +7,7 @@
 }
 
 ul{ /*Får det til at gælde for alle ul's (listerne)*/
-	list-style-position: inside; /* inside betyder at stjernerne i listen skal være inde for tekst området*/
+	list-style-position: inside; /* "inside" betyder at stjernerne i listen skal være inde for tekst området*/
 	/*bestemmer placeringen af punktopstillinger (fx tal eller stjernerne) i en liste (<ul>, <ol>).*/
 }
 
