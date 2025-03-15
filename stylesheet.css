@@ -1,15 +1,17 @@
 .billede {
     background-color: #ddd; /* Tilføjer den grå farve*/
-    display: flex;  /* Placerer billederne i en række */
+    display: flex;  /* Placerer billederne i på en række og ikke under hinanden */
     justify-content: center;  /* Centrerer billederne */
     gap: 20px;  /* Afstand mellem billeder */
+    /*flex-wrap: wrap; /* Sikrer, at billederne rykker ned på mindre skærme */ 
 }
 
 ul{ /*Får det til at gælde for alle ul's (listerne)*/
-	list-style-position: inside; /*bestemmer placeringen af punktopstillinger (fx tal eller stjernerne) i en liste (<ul>, <ol>).*/
+	list-style-position: inside; /* inside betyder at stjernerne i listen skal være inde for tekst området*/
+	/*bestemmer placeringen af punktopstillinger (fx tal eller stjernerne) i en liste (<ul>, <ol>).*/
 }
 
-.billede img { /* gør så det kun gælder for img tags og ikke andre */
+.billede img { 
     width: 200px;  /* Sikrer ensartet størrelse */
     height: auto; /* GIVER billederne samme proportioner */
 }
@@ -25,4 +27,3 @@ ul{ /*Får det til at gælde for alle ul's (listerne)*/
 body { /*får det til at gælde for alt inde i body tag*/
     text-align: center; /* gør så alt inde for body tag i html, bliver cå¨entreret  */
 }
-
