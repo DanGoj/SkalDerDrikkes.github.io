@@ -1,8 +1,29 @@
-h2{
-	text-align: center;
-	font-size: 300%;
+.billede {
+    background-color: #ddd; /* Tilføjer den grå farve*/
+    display: flex;  /* Placerer billederne i en række */
+    justify-content: center;  /* Centrerer billederne */
+    gap: 20px;  /* Afstand mellem billeder */
+    flex-wrap: wrap; /* Sikrer, at billederne rykker ned på mindre skærme */ 
 }
-h1{
-	text-align: center;
-	font-size: 200%;
+
+ul{ /*Får det til at gælde for alle ul's (listerne)*/
+	list-style-position: inside; /*bestemmer placeringen af punktopstillinger (fx tal eller stjernerne) i en liste (<ul>, <ol>).*/
 }
+
+.billede img {
+    width: 200px;  /* Sikrer ensartet størrelse */
+    height: auto; /* GIVER billederne samme proportioner */
+}
+
+.lyseGrå {
+    background-color: #a1a1a1; /* Tilføjer den grå farve*/
+}
+
+.mørkeGrå {
+    background-color: #ddd; /* Tilføjer den grå farve*/
+}
+
+body { /*får det til at gælde for alt inde i body tag*/
+    text-align: center; /* gør så alt inde for body tag i html, bliver cå¨entreret  */
+}
+
