@@ -10,7 +10,7 @@ ul{ /*Får det til at gælde for alle ul's (listerne)*/
 	list-style-position: inside; /*bestemmer placeringen af punktopstillinger (fx tal eller stjernerne) i en liste (<ul>, <ol>).*/
 }
 
-.billede img {
+.billede img { /* gør så det kun gælder for img tags og ikke andre */
     width: 200px;  /* Sikrer ensartet størrelse */
     height: auto; /* GIVER billederne samme proportioner */
 }
